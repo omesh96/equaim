@@ -39,7 +39,7 @@ const Homepage = () => {
         </form>
 
         <div className='display'>
-          <h1>Omesh dubey</h1>
+        
           {apidata && apidata.map((el,ind)=>{
            return <div key={ind}>{el}</div>
           })}
